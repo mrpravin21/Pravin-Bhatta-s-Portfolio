@@ -31,7 +31,7 @@ const Projects = () => {
     {
       title: 'Originality Checking NFT Marketplace',
       description: 'NFT originality verification prior to minting, using 3 layers, SHA-256 hash mapping for duplicates, pHash using Hamming Distance for similar edited images, and using ResNET model for advanced similarity detection. Features include biometric authentication, NFT minting, originality verification, and marketplace for buying/selling NFTs.',
-      image: '/images/mintvault.jpeg',
+      image: '/images/mintvault2.jpeg',
       technologies: ['Motoko', 'React', 'ICP Canisters', 'Python', 'FastAPI'],
       liveLink: '',
       githubLink: 'https://github.com/mrpravin21/opend',
