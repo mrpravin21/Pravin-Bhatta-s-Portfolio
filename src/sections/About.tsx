@@ -218,7 +218,7 @@ const About = () => {
           
           <div className="stat-item text-center">
             <div className="font-display text-5xl md:text-6xl text-gold mb-2">
-              <span className="stat-number" data-target="3">0</span>
+              <span className="stat-number" data-target="4">0</span>
             </div>
             <p className="text-gray-400 uppercase tracking-wider text-sm">Years of Coding</p>
           </div>
