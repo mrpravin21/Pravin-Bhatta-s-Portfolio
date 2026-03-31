@@ -187,7 +187,7 @@ const Hero = () => {
           {/* Tagline */}
           <p 
             ref={taglineRef}
-            className="font-display text-display-3 md:text-display-2 text-gradient-gold"
+            className="font-display text-display-3 md:text-display-3 text-gradient-gold"
           >
             Full-Stack Developer | DApp Builder
           </p>
