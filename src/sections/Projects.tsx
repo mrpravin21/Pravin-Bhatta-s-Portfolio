@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: 'Real Estate Buyers Dashboard',
       description: 'JWT-authenticated (with tokens living in httpOnly cookies) buyers dashboard for a real estate broker to manage property interests. Features include a user-friendly interface for managing property interests.',
-      image: '/images/ncitarena.jpeg',
+      image: '/images/buyersportal.jpeg',
       technologies: ['Next.js', 'Drizzle','Supabase', 'Tailwind CSS'],
       liveLink: 'https://buyerportalassesment.vercel.app',
       githubLink: 'https://github.com/mrpravin21/real-estate-buyer-portal',
@@ -174,12 +174,16 @@ const Projects = () => {
               {/* Image */}
               <div className={`relative overflow-hidden rounded-2xl ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="relative aspect-video overflow-hidden">
+                  <a
+                  target="_blank" 
+                  href={project.liveLink}
+                  >
                   <img 
                     src={project.image}
                     alt={project.title}
                     className="project-image w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                   />
-                  
+                  </a>
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
                   
