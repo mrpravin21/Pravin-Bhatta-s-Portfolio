@@ -38,13 +38,22 @@ const Projects = () => {
       color: 'red'
     },
     {
+      title: 'Real Estate Buyers Dashboard',
+      description: 'JWT-authenticated (with tokens living in httpOnly cookies) buyers dashboard for a real estate broker to manage property interests. Features include a user-friendly interface for managing property interests.',
+      image: '/images/ncitarena.jpeg',
+      technologies: ['Next.js', 'Drizzle','Supabase', 'Tailwind CSS'],
+      liveLink: 'https://buyerportalassesment.vercel.app',
+      githubLink: 'https://github.com/mrpravin21/real-estate-buyer-portal',
+      color: 'gold'
+    },
+    {
       title: 'LAN-based Multiplayer Quiz',
       description: 'Built using C socket programming concept, TCP/IP sockets for communication and Linked list for maintaining leaderboard state, and a web frontend using HTML, CSS, and JavaScript. Players identify flags of countries and earn points. The server keeps track of each player using their roll number and maintains a real-time leaderboard that resets when the server is restarted.',
       image: '/images/flag3.jpeg',
       technologies: ['C', 'TCP/IP Sockets', 'JavaScript', 'Tailwind CSS'],
       liveLink: 'https://flaggame-pi.vercel.app',
       githubLink: 'https://github.com/mrpravin21/FLAG_GAME',
-      color: 'gold'
+      color: 'red'
     }
   ];
 
