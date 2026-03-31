@@ -164,7 +164,7 @@ const About = () => {
 
             <div className="space-y-4">
               <p className="about-text text-gray-300 text-lg leading-relaxed">
-                I'm an IT Engineer, recently completing my academic commitments in the Degree of Bachelors of Engineering in Informtion Technology, under Pokhara University. I have a deep fondness for technology and innovation. 
+                I'm an <span className="text-gradient-gold font-bold">IT Engineer</span>, recently completing my academic commitments in the Degree of <span className="text-gradient-gold font-bold">Bachelors of Engineering in Information Technology</span>, under <span className="text-gradient-gold font-bold">Pokhara University</span>. I have a deep fondness for technology and innovation. 
                 My journey in tech started with curiosity and has evolved into a passion for creating 
                 solutions that make a difference.
               </p>

@@ -173,18 +173,19 @@ const Projects = () => {
             >
               {/* Image */}
               <div className={`relative overflow-hidden rounded-2xl ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                <div className="relative aspect-video overflow-hidden">
+                
                   <a
-                  target="_blank" 
                   href={project.liveLink}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="relative block aspect-video overflow-hidden z-10 "
                   >
-                    <ExternalLink className="w-4 h-4" />
                   <img 
                     src={project.image}
                     alt={project.title}
                     className="project-image w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
                   />
-                  </a>
+                
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
                   
@@ -194,7 +195,7 @@ const Projects = () => {
                       <ArrowUpRight className="w-8 h-8 text-white" />
                     </div>
                   </div>
-                </div>
+                  </a>
 
                 {/* Decorative border */}
                 <div className={`absolute -inset-px rounded-2xl border-2 border-${project.color}/0 group-hover:border-${project.color}/50 transition-colors duration-500`} />
