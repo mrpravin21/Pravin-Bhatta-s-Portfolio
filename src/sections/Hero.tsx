@@ -189,7 +189,7 @@ const Hero = () => {
             ref={taglineRef}
             className="font-display text-display-3 md:text-display-2 text-gradient-gold"
           >
-            IT Engineering Student
+            Full-Stack Developer | DApp Builder
           </p>
 
           {/* Subheadline */}
@@ -198,7 +198,7 @@ const Hero = () => {
             className="max-w-2xl text-lg md:text-xl text-gray-300 leading-relaxed mt-4"
           >
             Transforming ideas into elegant solutions. Passionate about 
-            design and creating impactful technology that makes a difference.
+            design and creating impactful applications that makes a difference.
           </p>
 
           {/* CTA Buttons */}

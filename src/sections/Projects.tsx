@@ -178,6 +178,7 @@ const Projects = () => {
                   target="_blank" 
                   href={project.liveLink}
                   >
+                    <ExternalLink className="w-4 h-4" />
                   <img 
                     src={project.image}
                     alt={project.title}

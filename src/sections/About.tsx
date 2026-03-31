@@ -149,7 +149,7 @@ const About = () => {
 
               {/* Floating badge */}
               <div className="absolute -bottom-4 -right-4 bg-red text-white px-6 py-3 rounded-lg shadow-glow-red">
-                <span className="font-display text-2xl">8th Semester</span>
+                <span className="font-display text-2xl">IT Engineer</span>
               </div>
             </div>
           </div>
@@ -164,7 +164,7 @@ const About = () => {
 
             <div className="space-y-4">
               <p className="about-text text-gray-300 text-lg leading-relaxed">
-                I'm a final-year IT Engineering student with a deep love for technology and innovation. 
+                I'm an IT Engineer, recently completing my academic commitments in the Degree of Bachelors of Engineering in Informtion Technology, under Pokhara University. I have a deep fondness for technology and innovation. 
                 My journey in tech started with curiosity and has evolved into a passion for creating 
                 solutions that make a difference.
               </p>
