@@ -99,9 +99,9 @@ const Footer = () => {
             <h3 className="footer-logo font-display text-4xl text-gold mb-2">
               PRAVIN BHATTA
             </h3>
-            <p className="footer-tagline text-gray-400 text-sm">
+            <h4 className="footer-tagline text-red text-lg font-medium">
               Full-Stack Developer
-            </p>
+            </h4>
           </div>
 
           {/* Quick Links */}
