@@ -100,7 +100,7 @@ const Footer = () => {
               PRAVIN BHATTA
             </h3>
             <p className="footer-tagline text-gray-400 text-sm">
-              IT Engineering Student & Developer
+              FullStack Developer
             </p>
           </div>
 
